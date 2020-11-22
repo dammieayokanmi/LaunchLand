@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="./css/progress.css" />
+  </head>
+  <body>
+    <div class="main">
+   <div class="grid">
+        <div class="lhs flex">
+          <!-- <img class="absolute c1" src="./images/c1.png" alt="" />
+          <img class="absolute c2" src="./images/c2.png" alt="" />
+          <img class="absolute c3" src="./images/c3.png" alt="" /> -->
+          <img class="people" src="./images/family.png" alt="people" />
+        </div>
+        <div class="rhs">
+          <!-- <img src="./images/irreg.png" alt=""> -->
+
+			<div class="images flex">
+            <img class="logo" src="./images/logo.png" alt="logo" />
+            <img class="rocket" src="./images/rocket.png" alt="🚀" />
+          </div>
+          <div class="lower">
+            <div class="launch">
+              <p>Launching Soon</p>
+              <img class="absolute" src="./images/brush.png" alt="brush">
+            </div>
+
+            <div class="flex" id="countdown">
+              <div class="day">
+                <div
+                  id="circleProgress4"
+                  class="progressbar-js-circle border rounded p-3"
+                >
+                  <svg
+                    viewBox="0 0 100 100"
+                    style="display: block; width: 100%"
+                  >
+                    <path
+                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                      stroke="rgba(255,255,255,.4)"
+                      stroke-width="2"
+                      fill-opacity="0"
+                    ></path>
+                    <path
+                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                      stroke="white"
+                      stroke-width="2"
+                      fill-opacity="0"
+                      style="
+                        stroke-dasharray: 301.635, 301.635;
+                        stroke-dashoffset: 220.194;
+                      "
+                    ></path>
+                  </svg>
+                  <div
+                    id="day"
+                    class="progressbar-text"
+                    style="
+                      position: absolute;
+                      left: 50%;
+                      top: 50%;
+                      padding: 0px;
+                      margin: 0px;
+                      transform: translate(-50%, -50%);
+                      color: white;
+                      font-size: 3rem;
+                      opacity: 0.7;
+                    "
+                  ></div>
+                </div>
+                <div class="text">DAYS</div>
+              </div>
+              <div class="hour">
+                <div
+                  id="circleProgress2"
+                  class="progressbar-js-circle border rounded p-3"
+                >
+                  <svg
+                    viewBox="0 0 100 100"
+                    style="display: block; width: 100%"
+                  >
+                    <path
+                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                      stroke="rgba(255,255,255,.4)"
+                      stroke-width="2"
+                      fill-opacity="0"
+                    ></path>
+                    <path
+                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                      stroke="white"
+                      stroke-width="2"
+                      fill-opacity="0"
+                      style="
+                        stroke-dasharray: 301.635, 301.635;
+                        stroke-dashoffset: 148.752;
+                      "
+                    ></path>
+                  </svg>
+                  <div
+                    class="progressbar-text"
+                    id="hour"
+                    style="
+                      position: absolute;
+                      left: 50%;
+                      top: 50%;
+                      padding: 0px;
+                      margin: 0px;
+                      transform: translate(-50%, -50%);
+                      color: white;
+                      font-size: 3rem;
+                      opacity: 0.7;
+                    "
+                  ></div>
+                </div>
+                <div class="text">HOURS</div>
+              </div>
+
+              <div class="min">
+                <div
+                  id="circleProgress6"
+                  class="progressbar-js-circle border rounded p-3"
+                >
+                  <svg
+                    viewBox="0 0 100 100"
+                    style="display: block; width: 100%"
+                  >
+                    <path
+                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                      stroke="rgba(255,255,255,.4)"
+                      stroke-width="2"
+                      fill-opacity="0"
+                    ></path>
+                    <path
+                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                      stroke="white"
+                      stroke-width="2"
+                      fill-opacity="0"
+                      style="
+                        stroke-dasharray: 301.635, 301.635;
+                        stroke-dashoffset: 65.0818;
+                      "
+                    ></path>
+                  </svg>
+                  <div
+                    class="progressbar-text"
+                    id="minute"
+                    style="
+                      position: absolute;
+                      left: 50%;
+                      top: 50%;
+                      padding: 0px;
+                      margin: 0px;
+                      transform: translate(-50%, -50%);
+                      color: white;
+                      font-size: 3rem;
+                      opacity: 0.7;
+                    "
+                  ></div>
+                </div>
+                <div class="text">MINUTES</div>
+              </div>
+            </div>
+            <div class="form">
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Send email to get notified"
+              />
+              <div class="button">
+                <button type="submit">Send</button>
+              </div>
+              <div class="socials flex">
+                <div class="flex">
+                  <a href=""> <img src="./images/face.png" alt="" /> </a>
+                  <a href=""> <img src="./images/tweet.png" alt="" /> </a>
+                  <a href=""> <img src="./images/insta.png" alt="" /> </a>
+                  <a href=""> <img src="./images/youtube.png" alt="" /> </a>
+                  <a href=""><img src="./images/linked.png" alt="" /> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Nov 26, 2020 15:37:25").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+        // Output the result in an element "
+        document.getElementById("day").innerHTML = days;
+        document.getElementById("hour").innerHTML = hours;
+        document.getElementById("minute").innerHTML = minutes;
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "HURRAY!!!";
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
