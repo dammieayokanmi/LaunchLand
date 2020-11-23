@@ -15,159 +15,206 @@
   <body>
     <div class="main">
       <img class="absolute cloud c1" src="./images/cloud.png" alt="" />
-          <img class="absolute cloud c2" src="./images/cloud.png" alt="" />
-          <img class="absolute cloud c3" src="./images/cloud.png" alt="" />
-   <div class="grid">
+      <img class="absolute cloud c2" src="./images/cloud.png" alt="" />
+      <img class="absolute cloud c3" src="./images/cloud.png" alt="" />
+      <div class="grid">
         <div class="lhs flex">
-          
           <img class="people" src="./images/family.png" alt="people" />
         </div>
         <div class="rhs">
-          <!-- <img src="./images/irreg.png" alt=""> -->
-
-			<div class="images flex">
+          <div class="images flex">
             <img class="logo" src="./images/logo.png" alt="logo" />
             <img class="rocket" src="./images/rocket.png" alt="🚀" />
           </div>
           <div class="lower">
             <div class="launch">
               <p>Launching Soon</p>
-              <img class="absolute" src="./images/brush.png" alt="brush">
+              <img class="absolute" src="./images/brush.png" alt="brush" />
             </div>
 
-            <div class="flex" id="countdown">
-              <div class="day">
-                <div
-                  id="circleProgress4"
-                  class="progressbar-js-circle border rounded p-3"
-                >
-                  <svg
-                    viewBox="0 0 100 100"
-                    style="display: block; width: 100%"
-                  >
-                    <path
-                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
-                      stroke="rgba(255,255,255,.4)"
-                      stroke-width="2"
-                      fill-opacity="0"
-                    ></path>
-                    <path
-                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
-                      stroke="white"
-                      stroke-width="2"
-                      fill-opacity="0"
-                      style="
-                        stroke-dasharray: 301.635, 301.635;
-                        stroke-dashoffset: 220.194;
-                      "
-                    ></path>
-                  </svg>
+            <div id="countdown">
+              <div class="flex first">
+                <div class="day">
                   <div
-                    id="day"
-                    class="progressbar-text"
-                    style="
-                      position: absolute;
-                      left: 50%;
-                      top: 50%;
-                      padding: 0px;
-                      margin: 0px;
-                      transform: translate(-50%, -50%);
-                      color: white;
-                      font-size: 3rem;
-                      opacity: 0.7;
-                    "
-                  ></div>
-                </div>
-                <div class="text">DAYS</div>
-              </div>
-              <div class="hour">
-                <div
-                  id="circleProgress2"
-                  class="progressbar-js-circle border rounded p-3"
-                >
-                  <svg
-                    viewBox="0 0 100 100"
-                    style="display: block; width: 100%"
+                    id="circleProgress4"
+                    class="progressbar-js-circle border rounded p-3"
                   >
-                    <path
-                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
-                      stroke="rgba(255,255,255,.4)"
-                      stroke-width="2"
-                      fill-opacity="0"
-                    ></path>
-                    <path
-                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
-                      stroke="white"
-                      stroke-width="2"
-                      fill-opacity="0"
+                    <svg
+                      viewBox="0 0 100 100"
+                      style="display: block; width: 100%"
+                    >
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="rgba(255,255,255,.4)"
+                        stroke-width="2"
+                        fill-opacity="0"
+                      ></path>
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="white"
+                        stroke-width="2"
+                        fill-opacity="0"
+                        style="
+                          stroke-dasharray: 301.635, 301.635;
+                          stroke-dashoffset: 220.194;
+                        "
+                      ></path>
+                    </svg>
+                    <div
+                      id="day"
+                      class="progressbar-text"
                       style="
-                        stroke-dasharray: 301.635, 301.635;
-                        stroke-dashoffset: 148.752;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        padding: 0px;
+                        margin: 0px;
+                        transform: translate(-50%, -50%);
+                        color: white;
+                        font-size: 3rem;
+                        opacity: 0.7;
                       "
-                    ></path>
-                  </svg>
-                  <div
-                    class="progressbar-text"
-                    id="hour"
-                    style="
-                      position: absolute;
-                      left: 50%;
-                      top: 50%;
-                      padding: 0px;
-                      margin: 0px;
-                      transform: translate(-50%, -50%);
-                      color: white;
-                      font-size: 3rem;
-                      opacity: 0.7;
-                    "
-                  ></div>
+                    ></div>
+                  </div>
+                  <div class="text">DAYS</div>
                 </div>
-                <div class="text">HOURS</div>
+
+                <div class="hour">
+                  <div
+                    id="circleProgress2"
+                    class="progressbar-js-circle border rounded p-3"
+                  >
+                    <svg
+                      viewBox="0 0 100 100"
+                      style="display: block; width: 100%"
+                    >
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="rgba(255,255,255,.4)"
+                        stroke-width="2"
+                        fill-opacity="0"
+                      ></path>
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="white"
+                        stroke-width="2"
+                        fill-opacity="0"
+                        style="
+                          stroke-dasharray: 301.635, 301.635;
+                          stroke-dashoffset: 148.752;
+                        "
+                      ></path>
+                    </svg>
+                    <div
+                      class="progressbar-text"
+                      id="hour"
+                      style="
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        padding: 0px;
+                        margin: 0px;
+                        transform: translate(-50%, -50%);
+                        color: white;
+                        font-size: 3rem;
+                        opacity: 0.7;
+                      "
+                    ></div>
+                  </div>
+                  <div class="text">HOURS</div>
+                </div>
               </div>
 
-              <div class="min">
-                <div
-                  id="circleProgress6"
-                  class="progressbar-js-circle border rounded p-3"
-                >
-                  <svg
-                    viewBox="0 0 100 100"
-                    style="display: block; width: 100%"
-                  >
-                    <path
-                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
-                      stroke="rgba(255,255,255,.4)"
-                      stroke-width="2"
-                      fill-opacity="0"
-                    ></path>
-                    <path
-                      d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
-                      stroke="white"
-                      stroke-width="2"
-                      fill-opacity="0"
-                      style="
-                        stroke-dasharray: 301.635, 301.635;
-                        stroke-dashoffset: 65.0818;
-                      "
-                    ></path>
-                  </svg>
+              <div class="flex">
+                <div class="min">
                   <div
-                    class="progressbar-text"
-                    id="minute"
-                    style="
-                      position: absolute;
-                      left: 50%;
-                      top: 50%;
-                      padding: 0px;
-                      margin: 0px;
-                      transform: translate(-50%, -50%);
-                      color: white;
-                      font-size: 3rem;
-                      opacity: 0.7;
-                    "
-                  ></div>
+                    id="circleProgress6"
+                    class="progressbar-js-circle border rounded p-3"
+                  >
+                    <svg
+                      viewBox="0 0 100 100"
+                      style="display: block; width: 100%"
+                    >
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="rgba(255,255,255,.4)"
+                        stroke-width="2"
+                        fill-opacity="0"
+                      ></path>
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="white"
+                        stroke-width="2"
+                        fill-opacity="0"
+                        style="
+                          stroke-dasharray: 301.635, 301.635;
+                          stroke-dashoffset: 65.0818;
+                        "
+                      ></path>
+                    </svg>
+                    <div
+                      class="progressbar-text"
+                      id="minute"
+                      style="
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        padding: 0px;
+                        margin: 0px;
+                        transform: translate(-50%, -50%);
+                        color: white;
+                        font-size: 3rem;
+                        opacity: 0.7;
+                      "
+                    ></div>
+                  </div>
+                  <div class="text">MINUTES</div>
                 </div>
-                <div class="text">MINUTES</div>
+
+                <div class="second">
+                  <div
+                    id="circleProgress6"
+                    class="progressbar-js-circle border rounded p-3"
+                  >
+                    <svg
+                      viewBox="0 0 100 100"
+                      style="display: block; width: 100%"
+                    >
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="rgba(255,255,255,.4)"
+                        stroke-width="2"
+                        fill-opacity="0"
+                      ></path>
+                      <path
+                        d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                        stroke="white"
+                        stroke-width="2"
+                        fill-opacity="0"
+                        style="
+                          stroke-dasharray: 301.635, 301.635;
+                          stroke-dashoffset: 65.0818;
+                        "
+                      ></path>
+                    </svg>
+                    <div
+                      class="progressbar-text"
+                      id="seconds"
+                      style="
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        padding: 0px;
+                        margin: 0px;
+                        transform: translate(-50%, -50%);
+                        color: white;
+                        font-size: 3rem;
+                        opacity: 0.7;
+                      "
+                    ></div>
+                  </div>
+                  <div class="text">SECONDS</div>
+                </div>
               </div>
             </div>
             <div class="form">
@@ -196,7 +243,7 @@
     </div>
     <script>
       // Set the date we're counting down to
-      var countDownDate = new Date("Nov 26, 2020 15:37:25").getTime();
+      var countDownDate = new Date("Nov 27, 2020 00:00:00").getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function () {
@@ -212,16 +259,18 @@
           (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
         );
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result in an element "
         document.getElementById("day").innerHTML = days;
         document.getElementById("hour").innerHTML = hours;
         document.getElementById("minute").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
 
         // If the count down is over, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("countdown").innerHTML = "HURRAY!!!";
+          document.getElementById("countdown").innerHTML = "🎉🎉🎉HURRAY!!!";
         }
       }, 1000);
     </script>
